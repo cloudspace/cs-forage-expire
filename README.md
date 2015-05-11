@@ -11,6 +11,12 @@ ForageExpire.setItem('someData', 'I want to expire this in 1 day', moment().add(
 ForageExpire.getItem('someData', function(data){ console.log(data); })
 ```
 
+## Testing
+
+There is currently an issue running localforage through Karma. There is
+communication with Mozilla on resolving this issue. Tests will
+be written when that issue has been resolved.
+
 ## Development Setup
 
 - `npm install`
